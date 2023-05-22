@@ -1,0 +1,19 @@
+{
+  "name": "test_for_499",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiadtisakF/Test_for_499.git"
+  },
+  "author": "kiadtisak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiadtisakF/Test_for_499/issues"
+  },
+  "homepage": "https://github.com/kiadtisakF/Test_for_499#readme"
+}
