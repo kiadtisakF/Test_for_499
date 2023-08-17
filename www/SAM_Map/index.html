@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แอปพลิเคชันแผนที่</title>
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- font Chakra Petch -->
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Kanit:wght@100&display=swap"
+        rel="stylesheet">
+    <!-- font Bai Jamjuree -->
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+</head>
+
+<body>
+    <div id="data-section">
+        <span id="name-project">499 SAM Project</span>
+        <p id="des-project">เว็บแอพพริเคชันนี้พัฒนาขึ้นเพื่อเป็นส่วนหนึ่งของกระบวนวิชา 154499</p>
+        <!-- กล่องแสดงพิกัดพื้นที่ศึกษา -->
+        <div id="info-box">
+            <h2><strong>พิกัดของพื้นที่</strong></h2>
+            <p><strong>ตะวันตกเหนือ:</strong> <span id="nw-coordinates"></span></p>
+            <p><strong>ตะวันออกใต้:</strong> <span id="se-coordinates"></span></p>
+        </div>
+        <!-- กล่องแสดงตัวเลือกประเภทพื้นที่สีเขียว -->
+        <div id="info-box2">
+            <h2><strong>ประเภทพื้นที่สีเขียว</strong></h2>
+            <div class="option">
+                <label>
+                    <input type="checkbox" class="option-checkbox"> ตัวเลือกที่ 1
+                </label>
+            </div>
+            <div class="option">
+                <label>
+                    <input type="checkbox" class="option-checkbox"> ตัวเลือกที่ 2
+                </label>
+            </div>
+            <div class="option">
+                <label>
+                    <input type="checkbox" class="option-checkbox"> ตัวเลือกที่ 3
+                </label>
+            </div>
+            <div class="option">
+                <label>
+                    <input type="checkbox" class="option-checkbox"> ตัวเลือกที่ 4
+                </label>
+            </div>
+            <div class="option">
+                <label>
+                    <input type="checkbox" class="option-checkbox"> ตัวเลือกที่ 5
+                </label>
+            </div>
+            <!-- เพิ่มตัวเลือกอื่น ๆ ตามต้องการ -->
+            <button id="apply-btn">ประมวลผล</button>
+        </div>
+        <div id="resultbox">
+            <h2><strong>ผลการวิเคราะห์</strong></h2>
+        </div>
+    </div>
+
+    <div id="map">
+        <h2>แผนที่</h2>
+        <!-- เพิ่มแผนที่ที่นี่ (ใช้ API แผนที่ที่คุณเลือก) -->
+    </div>
+
+
+</body>
+<!-- leaflet -->
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""></script>
+<script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+<!-- bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+<script src="./app.js"></script>
+
+
+
+</html>

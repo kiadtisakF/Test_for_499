@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+#data-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #dee2e6;
+
+}
+
+#name-project {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#des-project {
+    font-weight: bold;
+}
+
+#info-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+#info-box h2 {
+    margin-top: 0;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#info-box p {
+    margin: 5px 0;
+}
+
+/* กล่อง2 */
+#info-box2 {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+#info-box2 h2 {
+    margin-top: 0;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.option2 {
+    margin: 10px 0;
+}
+
+.option label {
+    display: block;
+}
+
+#resultbox {
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+#resultbox h2 {
+    margin-top: 0;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#map {
+    flex: 3;
+    padding: 20px;
+    background-color: #fff;
+}
